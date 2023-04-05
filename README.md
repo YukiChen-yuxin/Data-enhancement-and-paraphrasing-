@@ -1,9 +1,10 @@
 # Data-enhancement-and-paraphrasing
 Research on multi-level Chinese paraphrasing, using seq2seq to generate multiple sentences with the same semantic meaning
-link:[!essay](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2022&filename=JCDL202202021&uniplatform=OVERSEA&v=rSs359HnEA8AqidgS56pQ6Q4O53uFVqgqrUWAkY4EcEULw2IKnNqDxqIa1W8UyaH)
+
+link:[essay](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2022&filename=JCDL202202021&uniplatform=OVERSEA&v=rSs359HnEA8AqidgS56pQ6Q4O53uFVqgqrUWAkY4EcEULw2IKnNqDxqIa1W8UyaH)
 
 ## Introduction
-Compared with the traditional Bayesian personalised ranking recommendation algorithm, the hybrid Bayesian personalised ranking recommendation algorithm in this paper is complemented by adding a pairwise ranking triad constructed from the scoring ranking based on the independence weight coefficient algorithm, which constitutes a hybrid pairwise ranking triad. Finally, simulated recommendation experiments are trained on Python, and the final accuracy obtained by model evaluation is about 50% and coverage is about 90%.
+The project expounds the Chinese text retelling method based on multi-level semantic units, retells the text based on two levels of words and sentences, uses seq2 seq based on attention mechanism, obtains the semantic representation of the whole sentence by weighting all hidden layers in the coding part and using multiple semantic information（hidden layer state）. 
 
 ## How to Contribute
 Please note that this project is released with a [Contributor Code of Conduct](/CODE_OF_CONDUCT.md).
